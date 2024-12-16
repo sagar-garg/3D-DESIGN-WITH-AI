@@ -1,2 +1,2 @@
-# 3D DESIGN WITH AI
- 3D DESIGN WITH AI
+# AI-Assisted-3D-Design
+ AI-Assisted-3D-Design

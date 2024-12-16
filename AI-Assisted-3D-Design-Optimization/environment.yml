@@ -1,0 +1,53 @@
+name: nlp-env
+channels:
+  - pytorch
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - ca-certificates=2024.11.26=hca03da5_0
+  - filelock=3.13.1=py39hca03da5_0
+  - gmp=6.2.1=hc377ac9_3
+  - gmpy2=2.1.2=py39h8c48613_0
+  - jinja2=3.1.4=py39hca03da5_1
+  - libcxx=14.0.6=h848a8c0_0
+  - libffi=3.4.4=hca03da5_1
+  - llvm-openmp=14.0.6=hc6e5704_0
+  - markupsafe=2.1.3=py39h80987f9_0
+  - mpc=1.1.0=h8c48613_1
+  - mpfr=4.0.2=h695f6f0_1
+  - mpmath=1.3.0=py39hca03da5_0
+  - ncurses=6.4=h313beb8_0
+  - networkx=3.2.1=py39hca03da5_0
+  - openssl=3.0.15=h80987f9_0
+  - pip=24.2=py39hca03da5_0
+  - python=3.9.20=hb885b13_1
+  - pytorch=2.5.1=py3.9_0
+  - pyyaml=6.0.2=py39h80987f9_0
+  - readline=8.2=h1a28f6b_0
+  - setuptools=75.1.0=py39hca03da5_0
+  - sqlite=3.45.3=h80987f9_0
+  - sympy=1.13.2=py39hca03da5_0
+  - tk=8.6.14=h6ba3021_0
+  - typing_extensions=4.11.0=py39hca03da5_0
+  - tzdata=2024b=h04d1e81_0
+  - wheel=0.44.0=py39hca03da5_0
+  - xz=5.4.6=h80987f9_1
+  - yaml=0.2.5=h1a28f6b_0
+  - zlib=1.2.13=h18a0788_1
+  - pip:
+      - certifi==2024.8.30
+      - charset-normalizer==3.4.0
+      - fsspec==2024.10.0
+      - huggingface-hub==0.26.5
+      - idna==3.10
+      - numpy==2.0.2
+      - packaging==24.2
+      - regex==2024.11.6
+      - requests==2.32.3
+      - safetensors==0.4.5
+      - tokenizers==0.21.0
+      - tqdm==4.67.1
+      - transformers==4.47.0
+      - urllib3==2.2.3
+prefix: /opt/anaconda3/envs/nlp-env
